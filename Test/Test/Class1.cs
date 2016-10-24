@@ -19,7 +19,8 @@ namespace Test
 
             //Crack password
             bruteforce(password);
-
+            
+            //keeps program running
             Console.ReadLine();
 
             
@@ -28,6 +29,7 @@ namespace Test
         //Generates simple password
         static string passwordGenerator()
         {
+            //Creates a new instance of the Random class
             Random random = new Random();
             string password = random.Next(0, 10).ToString();
             password = password + random.Next(0, 10).ToString();
