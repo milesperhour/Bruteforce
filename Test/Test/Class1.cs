@@ -35,7 +35,7 @@ namespace Test
 
             Random random = new Random();
 
-
+            //make this recursive
 
             int pn1 = random.Next(0, 37);
             int pn2 = random.Next(0, 37);
