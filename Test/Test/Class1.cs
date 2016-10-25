@@ -6,12 +6,10 @@ using System.Threading.Tasks;
 
 namespace Test
 {
-    class 
-
+    class Class1
     {
         static void Main()
         {
-            //This is a pointless comment for testing gitHub purposes only.
 
             //Generate Password
             string password = passwordGenerator();
